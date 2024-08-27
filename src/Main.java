@@ -29,7 +29,7 @@ public class Main {
                 allCats[i].info();
         }
         plate.info();
-        System.out.println("Сколько грамм вискаса добавить еще в миску?");
+        System.out.println("Сколько корма добавить еще в миску?");
         Scanner sc = new Scanner(System.in);
         int action = sc.nextInt();
         plate.increaseFood(action);

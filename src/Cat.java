@@ -38,9 +38,9 @@ public class Cat extends Animal {
 
     public void info() {
     if (fullness) {
-        System.out.println("Котик " + name + " покушал!");
+        System.out.println("Кошак " + name + " покушал!");
     } else {
-        System.out.println("Котик " + name + " не поел!");
+        System.out.println("Кошак " + name + " не поел!");
     }
     }
 }
